@@ -44,6 +44,43 @@ fb6=[fb6_a, fb6_a, fb6_b, fb6_a]
 
 all_options.append(options6); all_answers.append(ans6); all_feedback.append(fb6)
 
+options7 = ['Load/program the logic ciruit','Load/program the arm microprocessor','Load/program the configuration memory layer in the FPGA','Load/program the ZYNQ 7020 chip']
+ans7 = 'Load/program the configuration memory layer in the FPGA'
+fb7_a = 'Incorrect'
+fb7_b = 'Incorrect'
+fb7_c = 'Correct'
+fb7_d = 'Incorrect'
+fb7 = [fb7_a,fb7_b,fb7_c,fb7_d]
+
+all_options.append(options7); all_answers.append(ans7); all_feedback.append(fb7)
+
+options8 = ['Arm Application microprocessor, real-time microcontroller','integrated programmable logic, Linux','Arm Application microprocessor, real-time microcontroller, integrated programmable logic, Linux','None of these features']
+ans8 = 'Arm Application microprocessor, real-time microcontroller, integrated programmable logic, Linux'
+fb8_a = 'Incorrect'
+fb8_b = 'Incorrect'
+fb8_c = 'Correct'
+fb8_d = 'Incorrect'
+fb8 = [fb8_a,fb8_b,fb8_c,fb8_d]
+
+all_options.append(options8); all_answers.append(ans8); all_feedback.append(fb8)
+
+options9 = ['ZYNQ 7020','XADC','The ARM microprocessor','Not on the board']
+ans9 = 'ZYNQ 7020'
+fb9_a = 'Correct'
+fb9_b = 'Incorrect'
+fb9_c = 'Incorrect'
+fb9_d = 'Incorrect'
+fb9 = [fb9_a,fb9_b,fb9_c,fb9_d]
+
+all_options.append(options9); all_answers.append(ans9); all_feedback.append(fb9)
+
+options10 = ['TRUE','FALSE']
+ans10 = 'TRUE'
+fb10_a = 'Correct'
+fb10_b = 'Incorrect'
+fb10 = [fb10_a,fb10_b]
+
+
 ###
 
 ardesc='An Arduino comes with a microcontroller. Unlike a Raspberry Pi, it does not have an operating system and can only run programs that were created and compiled specifically for Arduino boards, mostly written in C++. They\'re good for low-power applications and driving hardware, and are relatively easy to use, which has made them popular for robotics projects and teaching.'
