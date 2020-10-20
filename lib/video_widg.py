@@ -89,6 +89,7 @@ fb11_a = 'Try again. install conda sets up the environment, not a specific packa
 fb11_b = 'Correct! Pip can be used to install Python packages outside of a virtual environment like conda. '
 fb11_c = 'Incorrect, this command is used in Linux terminals, and is not used for PYNQ installs. '
 fb11_d = 'Incorrect'
+fb11 = [fb11_a,fb11_b,fb11_c,fb11_d]
 
 all_options.append(options11); all_answers.append(ans11); all_feedback.append(fb11)
 
@@ -98,6 +99,7 @@ fb12_a = 'Correct! We know ASICs are application specific. The other three descr
 fb12_b = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
 fb12_c = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
 fb12_d = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
+fb12 = [fb12_a,fb12_b,fb12_c,fb12_d]
 
 all_options.append(options12); all_answers.append(ans12); all_feedback.append(fb12)
 
@@ -107,6 +109,7 @@ fb13_a = 'Incorrect; look at the examples given in the notebook. Don\'t be afrai
 fb13_b = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
 fb13_c = 'Correct! Ruby is a high-level programming language that isn\'t used in designing hardware.'
 fb13_d = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13 = [fb13_a,fb13_b,fb13_c,fb13_d]
 
 all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb13)
 
@@ -116,6 +119,7 @@ fb14_a = 'Incorrect; remember that an FPGA is a silicon component.'
 fb14_b = 'Correct! An FPGA 'feature' refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
 fb14_c = 'Incorrect; routing is not often measured and monitored in this way.'
 fb14_d = 'Incorrect; not all FPGA devices are SoCs.'
+fb14 = [fb14_a,fb14_b,fb14_c,fb14_d]
 
 all_options.append(options14); all_answers.append(ans14); all_feedback.append(fb14)
 
@@ -125,10 +129,57 @@ fb15_a = 'Incorrect; a tcl script is used to rebuild your design, as it includes
 fb15_b = 'Incorrect; HDL is used when developing the hardware, but is not loaded into the device.'
 fb15_c = 'Incorrect; IP are building blocks in your hardware design.'
 fb15_d = 'Correct! A bitstream is created based on your design, which is what is loaded onto the device in order for it to function as the designer intends.'
+fb15 = [fb15_a,fb15_b,fb15_c,fb15_d]
 
 all_options.append(options15); all_answers.append(ans15); all_feedback.append(fb15)
 
+options16 = ['First Program Gate Array ','First Programmable Gate Array ','Field Programmable Gate Array','Field Program Gate Array']
+ans16 = 'Field Programmable Gate Array'
+fb16_a = 'Incorrect'
+fb16_b = 'Incorrect'
+fb16_c = 'Correct.'
+fb16_d = 'Incorrect'
+fb16= [fb16_a,fb16_b,fb16_c,fb16_d]
 
+all_options.append(options16); all_answers.append(ans16); all_feedback.append(fb16)
+
+options17 = ['Advanced Speed Integrated Circuit','Application Speedy Integrated Circuit','Advanced Standard Integrated Circuit','Application Specific Integrated Circuit']
+ans17 = 'Application Specific Integrated Circuit'
+fb17_a = 'Incorrect'
+fb17_b = 'Incorrect'
+fb17_c = 'Incorrect'
+fb17_d = 'Correct'
+fb17 = [fb17_a,fb17_b,fb17_c,fb17_d]
+
+all_options.append(options17); all_answers.append(ans17); all_feedback.append(fb17)
+
+options18 = ['A  microprocessor is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microcontroller is a computer which is typically dedicated to a single task. ','A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. ']
+ans18 = 'A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. '
+fb18_a = 'Correct. Microcontroller is like Arduino while Microprocessor is like Rasberry pi'
+fb18_b = 'Incorrect
+fb18 = [fb18_a,fb18_b]
+
+all_options.append(options18); all_answers.append(ans18); all_feedback.append(fb18)
+
+options19 = ['Automotive driver assistance systems','Industrial control systems','Remote robotic assisted surgery system','All of the above']
+ans19 = 'All of the above'
+fb19_a = 'Incorrect. It\'s one of the applications but there are more'
+fb19_b = 'Incorrect. It\'s one of the applications but there are more'
+fb19_c = 'Incorrect. It\'s one of the applications but there are more'
+fb19_d = 'Correct! You got it'
+fb19 = [fb19_a,fb19_b,fb19_c,fb19_d]
+
+all_options.append(options19); all_answers.append(ans19); all_feedback.append(fb19)
+
+options20 = ['C, Ruby, Python','Julia, Python, R','C++, Python','C, C++, C#']
+ans20 = 'Julia, Python, R'
+fb20_a = 'Incorrect'
+fb20_b = 'Correct'
+fb20_c = 'Incorrect'
+fb20_d = 'Incorrect'
+fb20 = [fb20_a,fb20_b,fb20_c,fb20_d]
+
+all_options.append(options20); all_answers.append(ans20); all_feedback.append(fb20)
 
 ###
 
