@@ -80,6 +80,36 @@ fb10_a = 'Correct'
 fb10_b = 'Incorrect'
 fb10 = [fb10_a,fb10_b]
 
+all_options.append(options10); all_answers.append(ans10); all_feedback.append(fb10)
+
+
+options11 = ['Conda install','PIP install','APT-get install','Easy-install']
+ans11 = 'PIP install'
+fb11_a = 'Try again. install conda sets up the environment, not a specific package'
+fb11_b = 'Correct! Pip can be used to install Python packages outside of a virtual environment like conda. '
+fb11_c = 'Incorrect, this command is used in Linux terminals, and is not used for PYNQ installs. '
+fb11_d = 'Incorrect'
+
+all_options.append(options11); all_answers.append(ans11); all_feedback.append(fb11)
+
+options12 = ['ASIC, SoC, FPGA, MPSoC','FPGA, SoC, ASIC, MPSoC','SoC, ASIC, FPGA, MPSoC','ASIC, MPSoC, FPGA, SoC']
+ans12 = 'ASIC, SoC, FPGA, MPSoC'
+fb12_a = 'Correct! We know ASICs are application specific. The other three descriptions can apply to an FPGA, but you can determine the correct answer from the mention of other components and multiple processors.'
+fb12_b = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
+fb12_c = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
+fb12_d = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
+
+all_options.append(options12); all_answers.append(ans12); all_feedback.append(fb12)
+
+options13 = ['Verilog','JHDL','Ruby','VHDL']
+ans13 = 'Ruby'
+fb13_a = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_b = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_c = 'Correct! Ruby is a high-level programming language that isn\'t used in designing hardware.'
+fb13_d = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+
+all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb13)
+
 
 ###
 
