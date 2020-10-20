@@ -110,6 +110,25 @@ fb13_d = 'Incorrect; look at the examples given in the notebook. Don\'t be afrai
 
 all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb13)
 
+options14 = ['The size of the FPGA','The size of a feature on an FPGA','The maximum routing distance between IP','The physical size of a processor on an SoC']
+ans14 = 'The size of a feature on an FPGA'
+fb14_a = 'Incorrect; remember that an FPGA is a silicon component.'
+fb14_b = 'Correct! An FPGA 'feature' refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
+fb14_c = 'Incorrect; routing is not often measured and monitored in this way.'
+fb14_d = 'Incorrect; not all FPGA devices are SoCs.'
+
+all_options.append(options14); all_answers.append(ans14); all_feedback.append(fb14)
+
+options15 = ['A .tcl script','An HDL file','An IP block','A bitstream']
+ans15 = 'A bitstream'
+fb15_a = 'Incorrect; a tcl script is used to rebuild your design, as it includes commands for Vivado to use.'
+fb15_b = 'Incorrect; HDL is used when developing the hardware, but is not loaded into the device.'
+fb15_c = 'Incorrect; IP are building blocks in your hardware design.'
+fb15_d = 'Correct! A bitstream is created based on your design, which is what is loaded onto the device in order for it to function as the designer intends.'
+
+all_options.append(options15); all_answers.append(ans15); all_feedback.append(fb15)
+
+
 
 ###
 
