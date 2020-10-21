@@ -156,7 +156,7 @@ all_options.append(options17); all_answers.append(ans17); all_feedback.append(fb
 options18 = ['A  microprocessor is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microcontroller is a computer which is typically dedicated to a single task. ','A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. ']
 ans18 = 'A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. '
 fb18_a = 'Correct. Microcontroller is like Arduino while Microprocessor is like Rasberry pi'
-fb18_b = 'Incorrect
+fb18_b = 'Incorrect'
 fb18 = [fb18_a,fb18_b]
 
 all_options.append(options18); all_answers.append(ans18); all_feedback.append(fb18)
