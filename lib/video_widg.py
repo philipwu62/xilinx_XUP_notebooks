@@ -263,7 +263,7 @@ def populate_questions():
         question_list.append(question)
         ## new line ## 
         if i == 21:
-            file = open('images/PynqLabel1.jpg', "rb")
+            file = open('images/PynqLabel1.JPG', "rb")
             image = file.read()
             img = widgets.Image(
                 value=image,
@@ -274,7 +274,7 @@ def populate_questions():
             display(Markdown('\n'+desc))
             display(img)
         if i == 22:
-            file = open('images/PynqLabel1.jpg', "rb")
+            file = open('images/PynqLabel2.JPG', "rb")
             image = file.read()
             img = widgets.Image(
                 value=image,
