@@ -261,6 +261,30 @@ def populate_questions():
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
         question_list.append(question)
+        ## new line ## 
+        if i == 21:
+            file = open('images/PynqLabel1.jpg', "rb")
+            image = file.read()
+            img = widgets.Image(
+                value=image,
+                format='png',
+                width=300,
+                align='center'
+            )
+            display(Markdown('\n'+desc))
+            display(img)
+        if i == 22:
+            file = open('images/PynqLabel1.jpg', "rb")
+            image = file.read()
+            img = widgets.Image(
+                value=image,
+                format='png',
+                width=300,
+                align='center'
+            )
+            display(Markdown('\n'+desc))
+            display(img)
+            ## new line ## 
     return question_list
 
 
