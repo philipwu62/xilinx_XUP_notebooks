@@ -251,7 +251,7 @@ def pop_platforms():
     return t
 
 def pynq_label(image_desc):
-    file = open(image_desc', "rb")
+    file = open(image_desc, "rb")
     image = file.read()
     img = widgets.Image(
     value=image,
