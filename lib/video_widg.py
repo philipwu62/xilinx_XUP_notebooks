@@ -194,6 +194,15 @@ fb21 = [fb21_a,fb21_b,fb21_c,fb21_d]
 
 all_options.append(options21); all_answers.append(ans21); all_feedback.append(fb21)
 
+options22 = ['1.USB 2. SDcard 3. Ethernet 4. Pmod interfaces','1. MicroUSB 2. MicroSD card 3. Ethernet  4. Raspberry Pi interfaces','1. MicroUSB 2. MicroSD card 3. Ethernet  4. Pmod interfaces','1.USB, 2. SD card 3. Eternet 4. Arduino Interface']
+ans22 = '1. MicroUSB 2. MicroSD card 3. Ethernet  4. Pmod interfaces'
+fb22_a = 'Incorrect'
+fb22_b = 'Incorrect'
+fb22_c = 'Correct'
+fb22_d = 'Incorrect'
+fb22 = [fb22_a,fb22_b,fb22_c,fb22_d]
+
+all_options.append(options22); all_answers.append(ans22); all_feedback.append(fb22)
 
 ###
 
