@@ -1,6 +1,7 @@
 import ipywidgets
 from ipywidgets import *
 from IPython.display import display, Markdown
+import random
 
 all_options=[]
 all_answers=[]
@@ -234,7 +235,7 @@ def populate_questions():
         question=[]
         question.append(Markdown(q_descriptions[i]))
         question.append(show_buttons(all_options[i], all_answers[i], all_feedback[i]))
-        if i==4:
+        if i==5:
             platforms=pop_platforms()
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
@@ -271,14 +272,12 @@ def show_buttons(options, answer, feedback):
     
 questions=populate_questions();
 def show_questions():
-    q=questions
+    q=questions;
+    random.shuffle(q)
     for i in q:
         if len(i) < 4:
             display(i[0],i[1])
         else:
             display(i[0],i[1],i[2],i[3])
         
-# interactive function, changing value: mc_val
-def mc_interact(mc_val, options, feedback):
-    fb_text=feedback[options.index(mc_val)]
-    display(Markdown(fb_text))
+
