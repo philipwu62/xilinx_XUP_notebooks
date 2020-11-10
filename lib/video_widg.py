@@ -250,6 +250,18 @@ def pop_platforms():
     t=widgets.interactive(platform_dropdown, desc_list=fixed(platform_descs), img_wgs=fixed(plat_imgs), dd_option=platforms)
     return t
 
+def pynq_label(image_desc):
+    file = open(image_desc', "rb")
+    image = file.read()
+    img = widgets.Image(
+    value=image,
+    format='png',
+    width=300,
+    align='center'
+    )
+    display(img)
+    return
+
 def populate_questions():
     question_list=[]
     for i in range(len(all_options)):
@@ -260,29 +272,12 @@ def populate_questions():
             platforms=pop_platforms()
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
-        question_list.append(question)
-        ## new line ## 
         if i == 21:
-            file = open('images/PynqLabel1.JPG', "rb")
-            image = file.read()
-            img = widgets.Image(
-                value=image,
-                format='png',
-                width=300,
-                align='center'
-            )
-            display(img)
+            pynq_label('images/PynqLabel1.JPG')
         if i == 22:
-            file = open('images/PynqLabel2.JPG', "rb")
-            image = file.read()
-            img = widgets.Image(
-                value=image,
-                format='png',
-                width=300,
-                align='center'
-            )
-            display(img)
-            ## new line ## 
+            pynq_label('images/PynqLabel2.JPG')
+         
+        question_list.append(question)
     return question_list
 
 
