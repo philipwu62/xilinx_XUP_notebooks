@@ -262,6 +262,10 @@ def pynq_label(image_desc):
     display(img)
     return
 
+def pop_images(image_desc):
+    t =widgets.interactive(pynq_label(image_desc))
+    return t
+
 def populate_questions():
     question_list=[]
     for i in range(len(all_options)):
@@ -272,11 +276,13 @@ def populate_questions():
             platforms=pop_platforms()
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
+        if i == 20:
+            platforms = pop_images('images/PynqLabel1.JPG')
+            question.append(platforms)
         if i == 21:
-            pynq_label('images/PynqLabel1.JPG')
-        if i == 22:
-            pynq_label('images/PynqLabel2.JPG')
-         
+           platforms = pop_images('images/PynqLabel1.JPG')
+            question.append(platforms)
+
         question_list.append(question)
     return question_list
 
