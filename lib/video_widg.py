@@ -271,7 +271,6 @@ def populate_questions():
                 width=300,
                 align='center'
             )
-            display(Markdown('\n'+desc))
             display(img)
         if i == 22:
             file = open('images/PynqLabel2.JPG', "rb")
@@ -282,7 +281,6 @@ def populate_questions():
                 width=300,
                 align='center'
             )
-            display(Markdown('\n'+desc))
             display(img)
             ## new line ## 
     return question_list
