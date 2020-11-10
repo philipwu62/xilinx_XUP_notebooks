@@ -183,6 +183,18 @@ fb20 = [fb20_a,fb20_b,fb20_c,fb20_d]
 
 all_options.append(options20); all_answers.append(ans20); all_feedback.append(fb20)
 
+
+options21 = ['1. Raspberry Pi Interface, 2. Arduino Interfaces', '1. Arduino Interface, 2. Raspberry Pi Interfaces', '1.Pmod A interface, 2. Pmod B interfaces','1.Pmod B interface, 2. Pmod A interfaces']
+ans21 = '1. Raspberry Pi Interface, 2. Arduino Interfaces'
+fb21_a = 'Correct'
+fb21_b = 'Incorrect'
+fb21_c = 'Incorrect'
+fb21_d = 'Incorrect'
+fb21 = [fb21_a,fb21_b,fb21_c,fb21_d]
+
+all_options.append(options21); all_answers.append(ans21); all_feedback.append(fb21)
+
+
 ###
 
 ardesc='An Arduino comes with a microcontroller. Unlike a Raspberry Pi, it does not have an operating system and can only run programs that were created and compiled specifically for Arduino boards, mostly written in C++. They\'re good for low-power applications and driving hardware, and are relatively easy to use, which has made them popular for robotics projects and teaching.'
