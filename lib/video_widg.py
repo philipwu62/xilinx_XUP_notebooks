@@ -281,7 +281,7 @@ def populate_questions():
             platforms=pop_platforms()
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
-         if i == 20:
+        if i == 20:
             platforms = pop_images()
             question.append(platforms)
         if i == 21:
