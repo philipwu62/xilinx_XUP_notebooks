@@ -280,9 +280,8 @@ def populate_questions():
             platforms = pop_images('images/PynqLabel1.JPG')
             question.append(platforms)
         if i == 21:
-           platforms = pop_images('images/PynqLabel1.JPG')
+            platforms = pop_images('images/PynqLabel2.JPG')
             question.append(platforms)
-
         question_list.append(question)
     return question_list
 
