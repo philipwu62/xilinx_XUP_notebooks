@@ -319,9 +319,11 @@ def show_questions():
     q=questions;
     random.shuffle(q)
     for i in q:
-        if len(i) < 4:
+        if len(i) < 3:
             display(i[0],i[1])
+        elif len(i) == 3:
+          display(i[0],i[1],i[2])
         else:
-            display(i[0],i[1],i[2],i[3])
+          display(i[0],i[1],i[2],i[3])
         
 
