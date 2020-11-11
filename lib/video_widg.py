@@ -262,7 +262,7 @@ def pynq_label_question(image):
         value = image,
         format='png',
         width=300,
-        align 'center'
+        align = 'center'
     )
     display(img)
     return
