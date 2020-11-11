@@ -251,7 +251,7 @@ def pop_platforms():
     return t
 
 pynq_imgs_path = ['images/PynqLabel1.JPG','images/PynqLabel2.JPG']
-pynq_imgs[];
+pynq_imgs = [];
 for i in pynq_imgs_path:
     file = open(i, "rb")
     image = file.read()
