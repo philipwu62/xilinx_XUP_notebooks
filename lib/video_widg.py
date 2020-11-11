@@ -250,20 +250,25 @@ def pop_platforms():
     t=widgets.interactive(platform_dropdown, desc_list=fixed(platform_descs), img_wgs=fixed(plat_imgs), dd_option=platforms)
     return t
 
-def pynq_label(image_desc):
-    file = open(image_desc, "rb")
+pynq_imgs_path = ['images/PynqLabel1.JPG','images/PynqLabel2.JPG']
+pynq_imgs[];
+for i in pynq_imgs_path:
+    file = open(i, "rb")
     image = file.read()
+    pynq_imgs.append(image)
+    
+def pynq_label_question(image):
     img = widgets.Image(
-    value=image,
-    format='png',
-    width=300,
-    align='center'
+        value = image,
+        format='png',
+        width=300,
+        align 'center'
     )
     display(img)
     return
 
-def pop_images(image_desc):
-    t =widgets.interactive(img_wgs = fixed(pynq_label(image_desc)))
+def pop_images():
+    t = widgets.interactive(img_wgs = fixed(pynq_imgs))
     return t
 
 def populate_questions():
@@ -276,11 +281,11 @@ def populate_questions():
             platforms=pop_platforms()
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
-        if i == 20:
-            platforms = pop_images('images/PynqLabel1.JPG')
+         if i == 20:
+            platforms = pop_images()
             question.append(platforms)
         if i == 21:
-            platforms = pop_images('images/PynqLabel2.JPG')
+            platforms = pop_images()
             question.append(platforms)
         question_list.append(question)
     return question_list
