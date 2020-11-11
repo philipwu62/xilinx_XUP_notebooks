@@ -256,7 +256,7 @@ for i in pynq_imgs_path:
     file = open(i, "rb")
     image = file.read()
     pynq_imgs.append(image)
-    
+   
 def pynq_label_question(image):
     img = widgets.Image(
         value = image,
