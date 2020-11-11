@@ -267,8 +267,8 @@ def pynq_label_question(image):
     display(img)
     return
 
-def pop_images():
-    t=widgets.interactive(pynq_label_question,image=fixed(pynq_imgs))
+def pop_images(image):
+    t=widgets.interactive(pynq_label_question(image))
     return t
 
 def populate_questions():
