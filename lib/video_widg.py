@@ -258,29 +258,20 @@ for i in pynq_imgs_path:
     pynq_imgs.append(image)
 
     
-#def pynq_label_question(img_option,imgs):
-#    image = imgs[img_option];
-#    img = widgets.Image(
-#        value = image,
-#        format='png',
-#        width=300,
-#        align = 'center'
-#    )
-#    display(img)
-#    return
-
-img_choice = 0; 
-
-pynq_box = widgets.Image(
-        value = pynq_imgs[img_choice],
+def pynq_label_question(img_option,imgs):
+    image = imgs[img_option];
+    img = widgets.Image(
+        value = image,
         format='png',
         width=300,
         align = 'center'
     )
+    display(img)
+    return
 
-#def pop_images(img_choice):
-#    t=widgets.Layout(pynq_label_question,imgs = pynq_imgs,img_option=img_choice)
-#    return t
+def pop_images(img_choice):
+    t=widgets.interactive(pynq_label_question,imgs = pynq_imgs,img_option=img_choice)
+    return t
 
 def populate_questions():
     question_list=[]
