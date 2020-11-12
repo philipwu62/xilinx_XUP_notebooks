@@ -247,7 +247,7 @@ def platform_dropdown(dd_option, img_wgs, desc_list):
     return
 
 def pop_platforms():
-    t=widgets.Box(platform_dropdown, desc_list=fixed(platform_descs), img_wgs=fixed(plat_imgs), dd_option=platforms)
+    t=widgets.interactive(platform_dropdown, desc_list=fixed(platform_descs), img_wgs=fixed(plat_imgs), dd_option=platforms)
     return t
 
 pynq_imgs_path = ['images/PynqLabel1.JPG','images/PynqLabel2.JPG']
