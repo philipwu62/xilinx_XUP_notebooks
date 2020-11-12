@@ -285,13 +285,11 @@ def populate_questions():
             question.append(platforms)
         if i == 20:
             img_choice = 0
-            platforms = widgets.Box(pynq_box)
-            #platforms = pop_images(img_choice)
+            platforms = pop_images(img_choice)
             question.append(platforms)
         if i == 21:
             img_choice = 1
-            platforms = widgets.Box(pynq_box)
-            #platforms = pop_images(img_choice)
+            platforms = pop_images(img_choice)
             question.append(platforms)
         question_list.append(question)
     return question_list
