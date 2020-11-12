@@ -274,7 +274,7 @@ for i in pynq_imgs_path:
 #    return t
 
 def pop_images(img_choice):
-    image = imgs[img_choice];
+    image = pynq_imgs[img_choice];
     img = widgets.Image(
         value = image,
         format='png',
