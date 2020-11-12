@@ -257,7 +257,8 @@ for i in pynq_imgs_path:
     image = file.read()
     pynq_imgs.append(image)
    
-def pynq_label_question(image):
+def pynq_label_question(img_option,imgs):
+    image = imgs[img_option];
     img = widgets.Image(
         value = image,
         format='png',
@@ -267,8 +268,10 @@ def pynq_label_question(image):
     display(img)
     return
 
-def pop_images(image):
-    t=widgets.interactive(pynq_label_question(image))
+img_choice = []
+
+def pop_images():
+    t=widgets.interactive(pynq_label_question,imgs=fixed(pynq_imgs),img_option=img_choice)
     return t
 
 def populate_questions():
@@ -282,10 +285,12 @@ def populate_questions():
             question.append(Markdown('#### Refer to the following dropdown widget for more info on each platform!'))
             question.append(platforms)
         if i == 20:
-            platforms = pop_images(image= pynq_imgs[0])
+            img_choice = 0
+            platforms = pop_images()
             question.append(platforms)
         if i == 21:
-            platforms = pop_images(image = pynq_imgs[1])
+            img_choice = 1
+            platforms = pop_images()
             question.append(platforms)
         question_list.append(question)
     return question_list
