@@ -277,7 +277,6 @@ pynq_box = widgets.Image(
         width=300,
         align = 'center'
     )
-    display(img)
 
 #def pop_images(img_choice):
 #    t=widgets.Layout(pynq_label_question,imgs = pynq_imgs,img_option=img_choice)
