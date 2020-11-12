@@ -256,9 +256,25 @@ for i in pynq_imgs_path:
     file = open(i, "rb")
     image = file.read()
     pynq_imgs.append(image)
-   
-def pynq_label_question(img_option,imgs):
-    image = imgs[img_option];
+
+    
+#def pynq_label_question(img_option,imgs):
+#    image = imgs[img_option];
+#    img = widgets.Image(
+#        value = image,
+#        format='png',
+#        width=300,
+#        align = 'center'
+#    )
+#    display(img)
+#    return
+
+#def pop_images(img_choice):
+#    t=widget.pynq_label_question(imgs = pynq_imgs,img_option=img_choice)
+#    return t
+
+def pop_images(img_choice):
+    image = imgs[img_choice];
     img = widgets.Image(
         value = image,
         format='png',
@@ -267,10 +283,6 @@ def pynq_label_question(img_option,imgs):
     )
     display(img)
     return
-
-def pop_images(img_choice):
-    t=pynq_label_question(imgs = pynq_imgs,img_option=img_choice)
-    return t
 
 def populate_questions():
     question_list=[]
