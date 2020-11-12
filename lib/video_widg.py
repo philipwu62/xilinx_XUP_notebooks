@@ -268,8 +268,6 @@ def pynq_label_question(img_option,imgs):
     display(img)
     return
 
-img_choice = []
-
 def pop_images():
     t=widgets.interactive(pynq_label_question,imgs=fixed(pynq_imgs),img_option=img_choice)
     return t
