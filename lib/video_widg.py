@@ -266,12 +266,13 @@ def pynq_label_question(img_option,imgs):
         width=300,
         align = 'center'
     )
-    display(img)
-    return
+    # display(img)
+    return img
 
 def pop_images(img_choice):
-    t= widgets.interactive(pynq_label_question(imgs = pynq_imgs,img_option=img_choice))
-    return t
+    t= widgets.interactive(pynq_label_question(pynq_imgs,img_choice))
+    display(t)
+    #return t
 
 def populate_questions():
     question_list=[]
