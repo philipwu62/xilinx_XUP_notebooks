@@ -266,8 +266,7 @@ def pynq_label_question(img_option,imgs):
         width=300,
         align = 'center'
     )
-    # display(img)
-    return img
+    display(img)
 
 def pop_images(image_choice):
    t= widgets.interactive(pynq_label_question,imgs=fixed(pynq_imgs),img_option = image_choice)
