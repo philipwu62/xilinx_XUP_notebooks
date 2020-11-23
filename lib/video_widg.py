@@ -317,8 +317,8 @@ def show_buttons(options, answer, feedback):
         fb_text=feedback[options.index(radios.value)]
         with feedback_out:
             feedback_out.clear_output()
-            display(Markdown(fb_text))
-            #print(fb_text)
+            #display(Markdown(fb_text))
+            print(fb_text)
         return
                     
     checker.on_click(submit)
