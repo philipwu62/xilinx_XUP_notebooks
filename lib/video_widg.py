@@ -8,6 +8,7 @@ def install(name):
     subprocess.call(['pip', 'install', name])
     
 install('rich')
+from rich import print
 #print("[italic red]Hello[/italic red] World!")   
     
 all_options=[]
