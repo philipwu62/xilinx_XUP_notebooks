@@ -319,6 +319,7 @@ def show_buttons(options, answer, feedback):
             feedback_out.clear_output()
             #display(Markdown(fb_text))
             print(fb_text)
+            print('[italic red]Hello[/italic red] World!')
         return
                     
     checker.on_click(submit)
