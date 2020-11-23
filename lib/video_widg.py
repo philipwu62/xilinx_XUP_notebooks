@@ -2,6 +2,7 @@ import ipywidgets
 from ipywidgets import *
 from IPython.display import display, Markdown
 import random
+from rich import print
 
 all_options=[]
 all_answers=[]
