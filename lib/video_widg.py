@@ -47,46 +47,46 @@ all_options.append(options5); all_answers.append(ans5); all_feedback.append(fb5)
 
 options6=['FPGA, RPi, Arduino', 'FPGA, Arduino, RPi', 'Arduino, RPi, FPGA', 'RPi, FPGA, Arduino']
 ans6='Arduino, RPi, FPGA'
-fb6_a='Try again! Refer to the "What is an FPGA?" notebook, the dropdown widget above, or try to recall what best differentiates these devices from each other.'
-fb6_b='Correct! As we know, an FPGA\'s architecture is user defined through configuration, while you can differentiate the RPi and Arduino microcontrollers through, for example, their proximity to peripherals, or specifying which is running an operating system.'
+fb6_a='[bold red]Try again![/bold red] Refer to the "What is an FPGA?" notebook, the dropdown widget above, or try to recall what best differentiates these devices from each other.'
+fb6_b='[bold green]Correct![/bold green] As we know, an FPGA\'s architecture is user defined through configuration, while you can differentiate the RPi and Arduino microcontrollers through, for example, their proximity to peripherals, or specifying which is running an operating system.'
 fb6=[fb6_a, fb6_a, fb6_b, fb6_a]
 
 all_options.append(options6); all_answers.append(ans6); all_feedback.append(fb6)
 
 options7 = ['Load/program the logic ciruit','Load/program the arm microprocessor','Load/program the configuration memory layer in the FPGA','Load/program the ZYNQ 7020 chip']
 ans7 = 'Load/program the configuration memory layer in the FPGA'
-fb7_a = 'Incorrect'
-fb7_b = 'Incorrect'
-fb7_c = 'Correct'
-fb7_d = 'Incorrect'
+fb7_a = '[bold red]Incorrect[/bold red]'
+fb7_b = '[bold red]Incorrect[/bold red]'
+fb7_c = '[bold green]Correct[/bold green]'
+fb7_d = '[bold red]Incorrect[/bold red]'
 fb7 = [fb7_a,fb7_b,fb7_c,fb7_d]
 
 all_options.append(options7); all_answers.append(ans7); all_feedback.append(fb7)
 
 options8 = ['Arm Application microprocessor, real-time microcontroller','integrated programmable logic, Linux','Arm Application microprocessor, real-time microcontroller, integrated programmable logic, Linux','None of these features']
 ans8 = 'Arm Application microprocessor, real-time microcontroller, integrated programmable logic, Linux'
-fb8_a = 'Incorrect'
-fb8_b = 'Incorrect'
-fb8_c = 'Correct'
-fb8_d = 'Incorrect'
+fb8_a = '[bold red]Incorrect[/bold red]'
+fb8_b = '[bold red]Incorrect[/bold red]'
+fb8_c = '[bold green]Correct[/bold green]'
+fb8_d = '[bold red]Incorrect[/bold red]'
 fb8 = [fb8_a,fb8_b,fb8_c,fb8_d]
 
 all_options.append(options8); all_answers.append(ans8); all_feedback.append(fb8)
 
 options9 = ['ZYNQ 7020','XADC','The ARM microprocessor','Not on the board']
 ans9 = 'ZYNQ 7020'
-fb9_a = 'Correct'
-fb9_b = 'Incorrect'
-fb9_c = 'Incorrect'
-fb9_d = 'Incorrect'
+fb9_a = '[bold green]Correct[/bold green]'
+fb9_b = '[bold red]Incorrect[/bold red]'
+fb9_c = '[bold red]Incorrect[/bold red]'
+fb9_d = '[bold red]Incorrect[/bold red]'
 fb9 = [fb9_a,fb9_b,fb9_c,fb9_d]
 
 all_options.append(options9); all_answers.append(ans9); all_feedback.append(fb9)
 
 options10 = ['TRUE','FALSE']
 ans10 = 'TRUE'
-fb10_a = 'Correct'
-fb10_b = 'Incorrect'
+fb10_a = '[bold green]Correct[/bold green]'
+fb10_b = '[bold red]Incorrect[/bold red]'
 fb10 = [fb10_a,fb10_b]
 
 all_options.append(options10); all_answers.append(ans10); all_feedback.append(fb10)
@@ -94,10 +94,10 @@ all_options.append(options10); all_answers.append(ans10); all_feedback.append(fb
 
 options11 = ['Conda install','PIP install','APT-get install','Easy-install']
 ans11 = 'PIP install'
-fb11_a = 'Try again. install conda sets up the environment, not a specific package'
-fb11_b = 'Correct! Pip can be used to install Python packages outside of a virtual environment like conda. '
-fb11_c = 'Incorrect, this command is used in Linux terminals, and is not used for PYNQ installs. '
-fb11_d = 'Incorrect'
+fb11_a = '[bold red]Try again[/bold red]. install conda sets up the environment, not a specific package'
+fb11_b = '[bold green]Correct![/bold green] Pip can be used to install Python packages outside of a virtual environment like conda. '
+fb11_c = '[bold red]Incorrect[/bold red], this command is used in Linux terminals, and is not used for PYNQ installs. '
+fb11_d = '[bold red]Incorrect[/bold red]'
 fb11 = [fb11_a,fb11_b,fb11_c,fb11_d]
 
 all_options.append(options11); all_answers.append(ans11); all_feedback.append(fb11)
