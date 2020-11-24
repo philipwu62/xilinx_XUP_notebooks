@@ -17,7 +17,7 @@ q_descriptions=['### What is PYNQ?','### Which of the following environments is 
 
 options1=['A development board','An operating system','An open-source project and framework','A Python-based game']
 ans1='An open-source project and framework'
-fb1=["[bold red]Not quite[/bold red]--a PYNQ board can be referred to as a development board, but this doesn\'t emcompass all of what PYNQ is.",'Incorrect--operating systems take care of a computer\'s basic functions. Examples include various versions of Linux and Windows systems, and don\'t include PYNQ.','Correct! PYNQ is a framework developed by Xilinx to integrate Python and Python based applications within an FPGA architecture. \'PYNQ\' comes from Python + ZYNQ--Zynq referring to a specific FPGA architecture developed by Xilinx.','Incorrect--PYNQ is not a game, but you can certainly create one with the help of PYNQ.']
+fb1=["[bold red]Not quite[/bold red]--a PYNQ board can be referred to as a development board, but this doesn\'t emcompass all of what PYNQ is.",'[bold red]Incorrect[/bold red]--operating systems take care of a computer\'s basic functions. Examples include various versions of Linux and Windows systems, and don\'t include PYNQ.','[bold green]Correct![/bold green] PYNQ is a framework developed by Xilinx to integrate Python and Python based applications within an FPGA architecture. \'PYNQ\' comes from Python + ZYNQ--Zynq referring to a specific FPGA architecture developed by Xilinx.','[bold red]Incorrect[/bold red]--PYNQ is not a game, but you can certainly create one with the help of PYNQ.']
 
 all_options.append(options1); all_answers.append(ans1); all_feedback.append(fb1)
 
