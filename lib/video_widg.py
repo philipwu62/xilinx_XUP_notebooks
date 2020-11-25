@@ -11,7 +11,6 @@ install('rich')
 from rich import print
     
 all_options=[]
-all_answers=[]
 all_feedback=[]
 q_descriptions=['### What is PYNQ?','### Which of the following environments is meant to be used with PYNQ?','### What are the the steps to get started with a PYNQ board?','### With PYNQ, hardware system designs are referred to as:','### What set of files are necessary to deploy a PYNQ system?','### Fill in the blanks of these descriptions for Raspberry Pis, Arduinos, and FPGAs as discussed in the workshop presentation. \n 1. A(n) __ is deployed close to hardware, and can be useful for working with sensors and buttons. \n 2. A(n) __ runs an operating system (commonly Linux), and acts like a little computer.\n 3. A(n) __ needs its architecture defined by the user.','### What do you need to configure the logic circuit?','### What does the Zynq system on a chip offer: select the appropriate options','### What component on the board contains the PS/PL?','### True or false: PYNQ offers Arduino and Raspberry Pi interfaces','### Which command is used to install new PYNQ projects using hybrid packages?','### Match these descriptions for FPGAs, (MP)SoCs, and ASICS \n 1. These are created for one specific purpose. They are expensive to develop and manufacture, but they are very fast and efficient. \n 2. An integrated circuit packaged with other components, like a processor or memory components.\n 3. These devices cannot be used without being programmed, but are flexible and relatively inexpensive to use. \n 4. An integrated circuit that is packaged with multiple processing cores.','### Which of these is not a hardware description language?','### What do nanometers associated with an FPGA indicate?','### Vivado is used to create hardware designs. Which of these things can you create with Vivado to load onto your FPGA into order to configure the device?','### What does FPGA stand for?','### What does ASIC stand for?','### What is the difference between Microprocessor and Microcontroller?','### Select the ZYNQ Applications:','### What languages does Jupyter support?','### Label the image of the PYNQ board below with the appropriate interface name ###','### Label the image of the PYNQ board below with the correct connection name ###']
 
@@ -114,11 +113,9 @@ all_options.append(options12); all_answers.append(ans12); all_feedback.append(fb
 
 options13 = ['Verilog','JHDL','Ruby','VHDL']
 ans13 = 'Ruby'
-fb13_a = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
-fb13_b = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_a = '[bold red]Incorrect![/bold red] - look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
 fb13_c = '[bold green]Correct![/bold green] Ruby is a high-level programming language that isn\'t used in designing hardware.'
-fb13_d = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
-fb13 = [fb13_a,fb13_b,fb13_c,fb13_d]
+fb13 = [fb13_a,fb13_a,fb13_c,fb13_a]
 
 all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb13)
 
@@ -134,9 +131,9 @@ all_options.append(options14); all_answers.append(ans14); all_feedback.append(fb
 
 options15 = ['A .tcl script','An HDL file','An IP block','A bitstream']
 ans15 = 'A bitstream'
-fb15_a = '[bold red]Incorrect![/bold red]; a tcl script is used to rebuild your design, as it includes commands for Vivado to use.'
-fb15_b = '[bold red]Incorrect![/bold red]; HDL is used when developing the hardware, but is not loaded into the device.'
-fb15_c = '[bold red]Incorrect![/bold red]; IP are building blocks in your hardware design.'
+fb15_a = '[bold red]Incorrect![/bold red] -a tcl script is used to rebuild your design, as it includes commands for Vivado to use.'
+fb15_b = '[bold red]Incorrect![/bold red] - HDL is used when developing the hardware, but is not loaded into the device.'
+fb15_c = '[bold red]Incorrect![/bold red] - IP are building blocks in your hardware design.'
 fb15_d = '[bold green]Correct![/bold green] A bitstream is created based on your design, which is what is loaded onto the device in order for it to function as the designer intends.'
 fb15 = [fb15_a,fb15_b,fb15_c,fb15_d]
 
@@ -172,9 +169,9 @@ all_options.append(options18); all_answers.append(ans18); all_feedback.append(fb
 
 options19 = ['Automotive driver assistance systems','Industrial control systems','Remote robotic assisted surgery system','All of the above']
 ans19 = 'All of the above'
-fb19_a = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
-fb19_b = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
-fb19_c = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
+fb19_a = '[bold red]Incorrect![/bold red]It\'s one of the applications but there are more'
+fb19_b = '[bold red]Incorrect![/bold red]It\'s one of the applications but there are more'
+fb19_c = '[bold red]Incorrect![/bold red]It\'s one of the applications but there are more'
 fb19_d = '[bold green]Correct![/bold green] You got it'
 fb19 = [fb19_a,fb19_b,fb19_c,fb19_d]
 
