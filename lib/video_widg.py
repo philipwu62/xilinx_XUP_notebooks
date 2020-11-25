@@ -104,88 +104,88 @@ all_options.append(options11); all_answers.append(ans11); all_feedback.append(fb
 
 options12 = ['ASIC, SoC, FPGA, MPSoC','FPGA, SoC, ASIC, MPSoC','SoC, ASIC, FPGA, MPSoC','ASIC, MPSoC, FPGA, SoC']
 ans12 = 'ASIC, SoC, FPGA, MPSoC'
-fb12_a = 'Correct! We know ASICs are application specific. The other three descriptions can apply to an FPGA, but you can determine the correct answer from the mention of other components and multiple processors.'
-fb12_b = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
-fb12_c = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
-fb12_d = 'Incorrect! Go back to the beginning of this notebook to review info on these four terms.'
+fb12_a = '[bold green]Correct![/bold green] We know ASICs are application specific. The other three descriptions can apply to an FPGA, but you can determine the correct answer from the mention of other components and multiple processors.'
+fb12_b = '[bold red]Incorrect![/bold red] Go back to the beginning of this notebook to review info on these four terms.'
+fb12_c = '[bold red]Incorrect![/bold red] Go back to the beginning of this notebook to review info on these four terms.'
+fb12_d = '[bold red]Incorrect![/bold red] Go back to the beginning of this notebook to review info on these four terms.'
 fb12 = [fb12_a,fb12_b,fb12_c,fb12_d]
 
 all_options.append(options12); all_answers.append(ans12); all_feedback.append(fb12)
 
 options13 = ['Verilog','JHDL','Ruby','VHDL']
 ans13 = 'Ruby'
-fb13_a = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
-fb13_b = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
-fb13_c = 'Correct! Ruby is a high-level programming language that isn\'t used in designing hardware.'
-fb13_d = 'Incorrect; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_a = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_b = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
+fb13_c = '[bold green]Correct![/bold green] Ruby is a high-level programming language that isn\'t used in designing hardware.'
+fb13_d = '[bold red]Incorrect![/bold red]; look at the examples given in the notebook. Don\'t be afraid to look up a language that looks unfamiliar to you.'
 fb13 = [fb13_a,fb13_b,fb13_c,fb13_d]
 
 all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb13)
 
 options14 = ['The size of the FPGA','The size of a feature on an FPGA','The maximum routing distance between IP','The physical size of a processor on an SoC']
 ans14 = 'The size of a feature on an FPGA'
-fb14_a = 'Incorrect; remember that an FPGA is a silicon component.'
-fb14_b = 'Correct! An FPGA \'feature\' refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
-fb14_c = 'Incorrect; routing is not often measured and monitored in this way.'
-fb14_d = 'Incorrect; not all FPGA devices are SoCs.'
+fb14_a = '[bold red]Incorrect![/bold red]; remember that an FPGA is a silicon component.'
+fb14_b = '[bold green]Correct![/bold green] An FPGA \'feature\' refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
+fb14_c = '[bold red]Incorrect![/bold red]; routing is not often measured and monitored in this way.'
+fb14_d = '[bold red]Incorrect![/bold red]; not all FPGA devices are SoCs.'
 fb14 = [fb14_a,fb14_b,fb14_c,fb14_d]
 
 all_options.append(options14); all_answers.append(ans14); all_feedback.append(fb14)
 
 options15 = ['A .tcl script','An HDL file','An IP block','A bitstream']
 ans15 = 'A bitstream'
-fb15_a = 'Incorrect; a tcl script is used to rebuild your design, as it includes commands for Vivado to use.'
-fb15_b = 'Incorrect; HDL is used when developing the hardware, but is not loaded into the device.'
-fb15_c = 'Incorrect; IP are building blocks in your hardware design.'
-fb15_d = 'Correct! A bitstream is created based on your design, which is what is loaded onto the device in order for it to function as the designer intends.'
+fb15_a = '[bold red]Incorrect![/bold red]; a tcl script is used to rebuild your design, as it includes commands for Vivado to use.'
+fb15_b = '[bold red]Incorrect![/bold red]; HDL is used when developing the hardware, but is not loaded into the device.'
+fb15_c = '[bold red]Incorrect![/bold red]; IP are building blocks in your hardware design.'
+fb15_d = '[bold green]Correct![/bold green] A bitstream is created based on your design, which is what is loaded onto the device in order for it to function as the designer intends.'
 fb15 = [fb15_a,fb15_b,fb15_c,fb15_d]
 
 all_options.append(options15); all_answers.append(ans15); all_feedback.append(fb15)
 
 options16 = ['First Program Gate Array ','First Programmable Gate Array ','Field Programmable Gate Array','Field Program Gate Array']
 ans16 = 'Field Programmable Gate Array'
-fb16_a = 'Incorrect'
-fb16_b = 'Incorrect'
-fb16_c = 'Correct.'
-fb16_d = 'Incorrect'
+fb16_a = '[bold red]Incorrect![/bold red]'
+fb16_b = '[bold red]Incorrect![/bold red]'
+fb16_c = '[bold green]Correct.[/bold green]'
+fb16_d = '[bold red]Incorrect![/bold red]'
 fb16= [fb16_a,fb16_b,fb16_c,fb16_d]
 
 all_options.append(options16); all_answers.append(ans16); all_feedback.append(fb16)
 
 options17 = ['Advanced Speed Integrated Circuit','Application Speedy Integrated Circuit','Advanced Standard Integrated Circuit','Application Specific Integrated Circuit']
 ans17 = 'Application Specific Integrated Circuit'
-fb17_a = 'Incorrect'
-fb17_b = 'Incorrect'
-fb17_c = 'Incorrect'
-fb17_d = 'Correct'
+fb17_a = '[bold red]Incorrect![/bold red]'
+fb17_b = '[bold red]Incorrect![/bold red]'
+fb17_c = '[bold red]Incorrect![/bold red]'
+fb17_d = '[bold green]Correct[/bold green]'
 fb17 = [fb17_a,fb17_b,fb17_c,fb17_d]
 
 all_options.append(options17); all_answers.append(ans17); all_feedback.append(fb17)
 
 options18 = ['A  microprocessor is a programmable device which takes some input, performs some logical and arithmetic operations on it and \n produce some desired output. while A microcontroller is a computer which is typically dedicated to a single task. ','A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. ']
 ans18 = 'A  microcontroller is a programmable device which takes some input, performs some logical and arithmetic operations on it and \n produce some desired output. while A microprocessor is a computer which is typically dedicated to a single task. '
-fb18_a = 'Correct. Microcontroller is like Arduino while Microprocessor is like Rasberry pi'
-fb18_b = 'Incorrect'
+fb18_a = '[bold green]Correct.[/bold green] Microcontroller is like Arduino while Microprocessor is like Rasberry pi'
+fb18_b = '[bold red]Incorrect![/bold red]'
 fb18 = [fb18_a,fb18_b]
 
 all_options.append(options18); all_answers.append(ans18); all_feedback.append(fb18)
 
 options19 = ['Automotive driver assistance systems','Industrial control systems','Remote robotic assisted surgery system','All of the above']
 ans19 = 'All of the above'
-fb19_a = 'Incorrect. It\'s one of the applications but there are more'
-fb19_b = 'Incorrect. It\'s one of the applications but there are more'
-fb19_c = 'Incorrect. It\'s one of the applications but there are more'
-fb19_d = 'Correct! You got it'
+fb19_a = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
+fb19_b = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
+fb19_c = '[bold red]Incorrect![/bold red]. It\'s one of the applications but there are more'
+fb19_d = '[bold green]Correct![/bold green] You got it'
 fb19 = [fb19_a,fb19_b,fb19_c,fb19_d]
 
 all_options.append(options19); all_answers.append(ans19); all_feedback.append(fb19)
 
 options20 = ['C, Ruby, Python','Julia, Python, R','C++, Python','C, C++, C#']
 ans20 = 'Julia, Python, R'
-fb20_a = 'Incorrect'
-fb20_b = 'Correct'
-fb20_c = 'Incorrect'
-fb20_d = 'Incorrect'
+fb20_a = '[bold red]Incorrect![/bold red]'
+fb20_b = '[bold green]Correct[/bold green]'
+fb20_c = '[bold red]Incorrect![/bold red]'
+fb20_d = '[bold red]Incorrect![/bold red]'
 fb20 = [fb20_a,fb20_b,fb20_c,fb20_d]
 
 all_options.append(options20); all_answers.append(ans20); all_feedback.append(fb20)
@@ -193,25 +193,25 @@ all_options.append(options20); all_answers.append(ans20); all_feedback.append(fb
 
 options21 = ['1. Raspberry Pi Interface, 2. Arduino Interfaces', '1. Arduino Interface, 2. Raspberry Pi Interfaces', '1.Pmod A interface, 2. Pmod B interfaces','1.Pmod B interface, 2. Pmod A interfaces']
 ans21 = '1. Raspberry Pi Interface, 2. Arduino Interfaces'
-fb21_a = 'Correct'
-fb21_b = 'Incorrect'
-fb21_c = 'Incorrect'
-fb21_d = 'Incorrect'
+fb21_a = '[bold green]Correct[/bold green]'
+fb21_b = '[bold red]Incorrect![/bold red]'
+fb21_c = '[bold red]Incorrect![/bold red]'
+fb21_d = '[bold red]Incorrect![/bold red]'
 fb21 = [fb21_a,fb21_b,fb21_c,fb21_d]
 
 all_options.append(options21); all_answers.append(ans21); all_feedback.append(fb21)
 
 options22 = ['1.USB 2. SDcard 3. Ethernet 4. Pmod interfaces','1. MicroUSB 2. MicroSD card 3. Ethernet  4. Raspberry Pi interfaces','1. MicroUSB 2. MicroSD card 3. Ethernet  4. Pmod interfaces','1.USB, 2. SD card 3. Eternet 4. Arduino Interface']
 ans22 = '1. MicroUSB 2. MicroSD card 3. Ethernet  4. Pmod interfaces'
-fb22_a = 'Incorrect'
-fb22_b = 'Incorrect'
-fb22_c = 'Correct'
-fb22_d = 'Incorrect'
+fb22_a = '[bold red]Incorrect![/bold red]'
+fb22_b = '[bold red]Incorrect![/bold red]'
+fb22_c = '[bold green]Correct[/bold green]'
+fb22_d = '[bold red]Incorrect![/bold red]'
 fb22 = [fb22_a,fb22_b,fb22_c,fb22_d]
 
 all_options.append(options22); all_answers.append(ans22); all_feedback.append(fb22)
 
-###
+
 
 ardesc='An Arduino comes with a microcontroller. Unlike a Raspberry Pi, it does not have an operating system and can only run programs that were created and compiled specifically for Arduino boards, mostly written in C++. They\'re good for low-power applications and driving hardware, and are relatively easy to use, which has made them popular for robotics projects and teaching.'
 rpi_desc='Raspberry Pis come with a microprocessor. They\'re pretty powerful, and have a variety of I/O options--with an RPi, you can use an SD cards, USB devices, HDMI displays, etc. You\'re also free to run it with almost any programming language.'
