@@ -336,4 +336,4 @@ def show_questions():
           display(i[0],i[1],i[2])
         else:
           display(i[0],i[1],i[2],i[3])
-    print('Congrats! :tada:')
+    print(':tada: [bold]Congrats![/bold] :tada: You have completed the test!')
