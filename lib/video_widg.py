@@ -336,6 +336,4 @@ def show_questions():
           display(i[0],i[1],i[2])
         else:
           display(i[0],i[1],i[2],i[3])
-        
-
-print('Congrats! :tada:')
+    print('Congrats! :tada:')
