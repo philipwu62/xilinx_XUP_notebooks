@@ -47,7 +47,7 @@ all_options.append(options5); all_answers.append(ans5); all_feedback.append(fb5)
 
 options6=['FPGA, RPi, Arduino', 'FPGA, Arduino, RPi', 'Arduino, RPi, FPGA', 'RPi, FPGA, Arduino']
 ans6='Arduino, RPi, FPGA'
-fb6_a='[bold red]Try again![/bold red] Refer to the \"What is an FPGA?\" notebook, the dropdown widget above, or try to recall what best differentiates these devices from each other.'
+fb6_a='[bold red]Try again![/bold red] Refer to the \\"What is an FPGA?\\" notebook, the dropdown widget above, or try to recall what best differentiates these devices from each other.'
 fb6_b='[bold green]Correct![/bold green] As we know, an FPGA\'s architecture is user defined through configuration, while you can differentiate the RPi and Arduino microcontrollers through, for example, their proximity to peripherals, or specifying which is running an operating system.'
 fb6=[fb6_a, fb6_a, fb6_b, fb6_a]
 
