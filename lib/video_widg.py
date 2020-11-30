@@ -122,7 +122,7 @@ all_options.append(options13); all_answers.append(ans13); all_feedback.append(fb
 options14 = ['The size of the FPGA','The size of a feature on an FPGA','The maximum routing distance between IP','The physical size of a processor on an SoC']
 ans14 = 'The size of a feature on an FPGA'
 fb14_a = '[bold red]Incorrect![/bold red]; remember that an FPGA is a silicon component.'
-fb14_b = '[bold green]Correct![/bold green] An FPGA \'feature\' refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
+fb14_b = '[bold green]Correct![/bold green] An FPGA [black]\'feature\'[/black] refers to the elements on an FPGA, like a transistor, and smaller features means more can be fit in the same space, which is why you hear the number growing smaller as newer devices are developed. A higher number of features can imply (though not always) higher performance and power.'
 fb14_c = '[bold red]Incorrect![/bold red]; routing is not often measured and monitored in this way.'
 fb14_d = '[bold red]Incorrect![/bold red]; not all FPGA devices are SoCs.'
 fb14 = [fb14_a,fb14_b,fb14_c,fb14_d]
