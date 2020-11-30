@@ -9,7 +9,6 @@ def install(name):
     
 install('rich')
 from rich import print
-    
 all_options=[]
 all_feedback=[]
 all_answers=[]
@@ -35,7 +34,7 @@ all_options.append(options3); all_answers.append(ans3); all_feedback.append(fb3)
 
 options4=['APIs','Layers','Notebooks','Overlays']
 ans4='Overlays'
-fb4=['[bold red]Incorrect![/bold red]An API (or \"Application Programming Interface\") is the software link between the user and the application. While this is the incorrect answer, and API is what allows you to interact with the correct answer.','[bold red]Incorrect![/bold red]A \"layer\" may refer to a \"layer\" in an application software stack, among other things, but in this case, this is the incorrect answer.','[bold red]Incorrect![/bold red]You may have first been exposed to Python or PYNQ through the use of iPython notebooks (like the one you\'re currently using), which provides an easy to use, cell-based coding environment.','[bold green]Correct![/bold green] An PYNQ overlay is essentially a hardware design that is used to configure the architecture of your device as an FPGA.']
+fb4=['[bold red]Incorrect![/bold red]An API (or [black]"Application Programming Interface"[/black]) is the software link between the user and the application. While this is the incorrect answer, and API is what allows you to interact with the correct answer.','[bold red]Incorrect![/bold red]A [black]"layer"[/black] may refer to a [black]"layer"[/black] in an application software stack, among other things, but in this case, this is the incorrect answer.','[bold red]Incorrect![/bold red]You may have first been exposed to Python or PYNQ through the use of iPython notebooks (like the one you\'re currently using), which provides an easy to use, cell-based coding environment.','[bold green]Correct![/bold green] An PYNQ overlay is essentially a hardware design that is used to configure the architecture of your device as an FPGA.']
 
 all_options.append(options4); all_answers.append(ans4); all_feedback.append(fb4)
 
